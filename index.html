@@ -24,21 +24,21 @@
 						</div>
 						<div class="uk-navbar-right">
 							<ul class="uk-navbar-nav uk-visible@s">
-								<li class="uk-active uk-visible@m"><a href="index.html" data-uk-icon="home"></a></li>
-								<li><a href="">Misión y Visión</a></li>
 								<li>
 									<a href="#" data-uk-icon="chevron-down">Servicios</a>
 									<div class="uk-navbar-dropdown">
 										<ul class="uk-nav uk-navbar-dropdown-nav">
-											<li><a href="#">Prensas Mecánicas</a></li>
-											<li><a href="#">Maquinados</a></li>
-											<li><a href="#">Hidráulica</a></li>
-											<li><a href="#">Hidráulica</a></li>
-											<li><a href="#">Soldadura</a></li>
+											<li><a href="#prensas">Prensas Mecánicas</a></li>
+											<li><a href="#maquinados">Maquinados</a></li>
+											<li><a href="#hidraulica">Hidráulica</a></li>
+											<li><a href="#lubricacion">Lubricación</a></li>
+											<li><a href="#soldadura">Soldadura</a></li>
 										</ul>
 									</div>
 								</li>
 								<li><a href="">Clientes</a></li>
+								<li><a href="">Misión y Visión</a></li>
+								<li class="uk-active uk-visible@m"><a href="index.html" data-uk-icon="home"></a></li>
 							</ul>
 							<a class="uk-navbar-toggle uk-navbar-item uk-hidden@s" data-uk-toggle data-uk-navbar-toggle-icon href="#offcanvas-nav"></a>
 						</div>
@@ -82,7 +82,7 @@
 
 				<ul class="uk-switcher uk-margin">
 					<li> <!-- PRENSAS -->
-						<div class="uk-grid uk-child-width-1-2@l uk-flex-middle" data-uk-grid data-uk-scrollspy="target: > div; cls: uk-animation-slide-left-medium">
+						<div id="prensas" class="uk-grid uk-child-width-1-2@l uk-flex-middle" data-uk-grid data-uk-scrollspy="target: > div; cls: uk-animation-slide-left-medium">
 							<div>
 								<img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="img/custom/syndema-prensas-mecanicas.jpg" alt="" data-uk-img>
 							</div>
@@ -108,7 +108,7 @@
 						</div>
 					</li>
 					<li> <!-- MAQUINADOS -->
-						<div class="uk-grid uk-child-width-1-2@l uk-flex-middle" data-uk-grid data-uk-scrollspy="target: > div; cls: uk-animation-slide-left-medium">
+						<div id="maquinados" class="uk-grid uk-child-width-1-2@l uk-flex-middle" data-uk-grid data-uk-scrollspy="target: > div; cls: uk-animation-slide-left-medium">
 							<div>
 								<img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="img/custom/syndema-maquinados.jpg" alt="" data-uk-img>
 							</div>
@@ -134,7 +134,7 @@
 						</div>
 					</li>
 					<li> <!-- HIDRÁULICA -->
-						<div class="uk-grid uk-child-width-1-2@l uk-flex-middle" data-uk-grid data-uk-scrollspy="target: > div; cls: uk-animation-slide-left-medium">
+						<div id="hidraulica" class="uk-grid uk-child-width-1-2@l uk-flex-middle" data-uk-grid data-uk-scrollspy="target: > div; cls: uk-animation-slide-left-medium">
 							<div>
 								<img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="img/custom/syndema-sistemas-hidraulicos.jpg" alt="" data-uk-img>
 							</div>
@@ -160,7 +160,7 @@
 						</div>
 					</li>
 					<li> <!-- LUBRICACIÓN -->
-						<div class="uk-grid uk-child-width-1-2@l uk-flex-middle" data-uk-grid data-uk-scrollspy="target: > div; cls: uk-animation-slide-left-medium">
+						<div id="lubricacion" class="uk-grid uk-child-width-1-2@l uk-flex-middle" data-uk-grid data-uk-scrollspy="target: > div; cls: uk-animation-slide-left-medium">
 							<div>
 								<img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="img/custom/syndema-sistemas-de-lubricacion.jpg" alt="" data-uk-img>
 							</div>
@@ -188,7 +188,7 @@
 						</div>
 					</li>
 					<li> <!-- SOLDADURA -->
-						<div class="uk-grid uk-child-width-1-2@l uk-flex-middle" data-uk-grid data-uk-scrollspy="target: > div; cls: uk-animation-slide-left-medium">
+						<div id="soldadura" class="uk-grid uk-child-width-1-2@l uk-flex-middle" data-uk-grid data-uk-scrollspy="target: > div; cls: uk-animation-slide-left-medium">
 							<div>
 								<img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="img/custom/syndema-soldadura.jpg" alt="" data-uk-img>
 							</div>
@@ -353,8 +353,11 @@
 			<div class="uk-container">
 				<div class="uk-grid uk-grid-large" data-uk-grid>
 					<div class="uk-width-1-2@m">
-						<h5>OUR COMPANY</h5>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud cillum dolore eu fugiat nulla contact to: <a href="#" title="">info@company.com</a></p>
+						<h5>MISIÓN</h5>
+						<p>Somos una empresa mexicana que se dedica a ofrecer servicios integrales de mantenimiento para la industria, contamos con un equipo de profesionales para atender los requisitos de nuestros clientes proponiendo servicios con valor, esforzandonos en lograr la satisfaccion de nuestros clientes. <a href="#" title="">info@company.com</a></p>
+						<h5>VISIÓN</h5>
+						<p>Ser la principal empresa en mexico en ofrecer nuestros servicios con calidad a empresas en todo tipo de ramo, buscando ser una solucion integral a sus necesidades de mantenimiento a través de la capacidad y profesionalismo con la finalidad de brindar confianza a nuestros clientes para así poder ser su opción número uno.</p>
+						
 						<div>
 							<a href="" class="uk-icon-button" data-uk-icon="twitter"></a>
 							<a href="" class="uk-icon-button" data-uk-icon="facebook"></a>
@@ -393,7 +396,7 @@
 			</div>
 
 			<div class="uk-text-center uk-padding uk-padding-remove-horizontal">
-				<span class="uk-text-small uk-text-muted">© 2019 Marketing Layout - <a href="https://github.com/zzseba78/Kick-Off">Created by KickOff</a> | Built with <a href="http://getuikit.com" title="Visit UIkit 3 site" target="_blank" data-uk-tooltip><span data-uk-icon="uikit"></span></a></span>
+				<span class="uk-text-small uk-text-muted">© 2020 Hecho con <span uk-icon="code"></span> <a href="https://ecucha.net">Ecucha.net</a> - <a href="https://github.com/zzseba78/Kick-Off">Created by KickOff</a> | Built with <a href="http://getuikit.com" title="Visit UIkit 3 site" target="_blank" data-uk-tooltip><span data-uk-icon="uikit"></span></a></span>
 			</div>
 		</footer>
 		<!-- /FOOTER -->
