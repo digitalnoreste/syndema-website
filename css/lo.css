@@ -1,0 +1,32 @@
+.all-services {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: "servicios-1 servicios-2";
+    padding: 3rem 0 0 0;
+}
+
+.s1 {grid-area: servicios-1;}
+
+.s2 {grid-area: servicios-2;}
+
+.all-services ul {
+    list-style-type: none;
+    line-height: 3rem;
+    margin: 0;
+    /* text-align: center; */
+}
+
+@media screen and (max-width:375px) {
+    .all-services {
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+            "servicios-1"
+            "servicios-2";
+        text-align: center;
+    }
+
+    .all-services ul {
+        margin: 0; 
+        padding: 0;
+    }
+}
