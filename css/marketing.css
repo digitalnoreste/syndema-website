@@ -31,7 +31,7 @@
 	z-index: 2;
 }
 .uk-logo img {
-	height: 190px;
+	height: 85px;
 }
 .subtitle-text {
 	font-size: 1.2em;
@@ -42,12 +42,4 @@
 	display: block;
 	width: 150px;
 	margin: 0 auto;
-	filter:  grayscale(100%);
-	transition: filter 0.25s;
-}
-.logos-grid img:hover {
-	display: block;
-	width: 150px;
-	margin: 0 auto;
-	filter:  grayscale(0);
 }
