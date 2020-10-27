@@ -20,6 +20,10 @@
     margin: 2.5rem auto;
 }
 
+.inner-slider img {
+    max-width: 100%;
+}
+
 @media screen and (max-width:375px) {
     .all-services {
         grid-template-columns: 1fr;
